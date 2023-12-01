@@ -1,0 +1,92 @@
+
+.main-menu-container{
+    background-color: #124547;
+    /*background: linear-gradient(to bottom right, #495E57, #E89E30); */
+    box-shadow: 0 0 8rem rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-style: double;
+    border-style: dotted;
+    border-color: #f1cf25;
+    max-width: 55rem;
+    text-align: center;
+    padding: 0rem;
+    margin: 1rem auto;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    border-radius: 5rem;
+}
+
+
+.menu-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide the container into two equal columns */
+    grid-gap: 2rem; /* Adjust the gap between columns as needed */
+    background: linear-gradient(to bottom right,#124547, #a18604); 
+    text-align: center;
+    border-style: double dotted;
+    border-color: #FFFFFF;
+    /*border-style: hidden;
+    border-style: outset; */
+    max-width: 55rem;
+    margin: 1rem auto;
+    margin-bottom: 5rem;
+    border-radius: 4rem;
+    padding: 0.5rem;
+}
+
+.menu-item {
+    max-width: 25rem;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.menu-item h3 {
+    margin-bottom: 0.313rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.menu-item p {
+    margin-top: 0.313rem;
+    word-wrap: break-word;
+    color: #FFFFFF;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+#ourmenuitem-description{
+    font-size: small;
+}
+
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+
+.menu-section {
+    margin-bottom: 30px;
+}
+
+
+#appetizer,#main-course,
+#dessert,#beverage,#salad {
+    text-align: center;
+}
+
+#menu{
+    text-align: center;
+    color: #F4CE14;
+
+}
+
+

@@ -1,0 +1,131 @@
+.site-footer {
+  background-color: #0d2219;  /*#124547;*/
+  color: #FFFFFF;
+}
+
+.site-footer .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  align-items: start;
+}
+
+.site-footer-logo {
+  min-width: 6rem;
+  width: 6rem;
+}
+
+.site-footer h4 {
+  text-transform: uppercase;
+  letter-spacing: 0.1875rem;
+  margin-bottom: 1rem;
+}
+
+.site-footer a {
+  color: #FFFFFF;
+  transition: color 0.5s;
+}
+
+.site-footer a:hover,
+.site-footer a:focus {
+  color: #F4CE14;
+}
+
+.site-footer-nav ul {
+  list-style-type: none;
+}
+
+.site-footer-nav li {
+  margin-bottom: 0.25rem;
+}
+
+.site-footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.site-footer-contact address {
+  margin-top: 0;
+  font-style: normal;
+}
+
+.site-footer-contact p {
+  margin: 0;
+}
+
+
+.site-footer-social svg {
+  margin-right: 1rem;
+}
+
+@media (max-width: 927px) {
+  .site-footer .container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+  }
+
+  .site-footer-social {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 789px) {
+  .site-footer .container {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+  }
+
+  .site-footer-contact {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 2rem;
+  }
+
+  .site-footer-social {
+    grid-column: 2;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .site-footer .container {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+
+  .site-footer-logo {
+    grid-row: 1;
+  }
+
+  .site-footer-nav {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 2rem;
+  }
+
+  .site-footer-contact {
+    grid-row: 3;
+  }
+
+  .contact-icon {
+    vertical-align: middle;
+  }
+  
+  .site-footer-social {
+    grid-column: 1;
+    grid-row: 4;
+    margin-top: 2rem;
+  }
+}
+
+#developer {
+  font-family:Snell Roundhand,cursive;
+  color: #FFFFFF;
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+
+.site-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    padding-left: 550px;
+}
+
+.site-contact address {
+    margin-top: 0;
+    font-style: normal;
+}
+
+.site-contact p {
+    margin: 50;
+    align-items: center;
+    padding: auto;
+  }

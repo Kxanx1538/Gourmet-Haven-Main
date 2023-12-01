@@ -1,0 +1,28 @@
+
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 5rem;
+    margin: 13rem;
+}
+
+
+
+.form-container {
+    width: 40rem;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    align-content: center;
+    align-items: center;
+}
+
+#login, #register {
+    text-align: center;
+    color: #0d2219;
+}

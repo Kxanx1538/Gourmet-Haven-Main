@@ -1,0 +1,102 @@
+
+.main-container {
+    background-color:#0d2219;   /* #495E57;*/
+    text-align: center;
+    padding: auto;
+    margin: 1rem;
+}
+
+#h3-1 {
+    color: #F4CE14;
+    text-align: center;
+    padding: 0;
+    margin-top: 0;
+}
+
+#p-1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: small;
+    word-wrap: break-word;
+}
+#price{
+    color: #e48c07;
+    text-align: right;
+    padding-right: 2rem;
+}
+
+#OnlineMenu{
+    padding: 1.875rem 0 1.875rem 0;
+    background-color: #0d2219;  /*#124547;*/
+    color: #F4CE14;
+    text-align: center;
+}
+
+
+#appetizers, #salads,
+#main-courses, #desserts {
+    text-align: center;
+    color: #0d2219  /*#124547;*/
+}
+
+
+
+#salads-section, #main-course-section,
+#desserts-section, #appetizers-section {
+    /*background-color: #495E57;*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr); /* Add this line */
+    gap: 0.5rem;
+    margin: 2rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
+
+}
+
+#main-course-section .online-menu-item,
+#desserts-section .online-menu-item,
+#appetizers-section .online-menu-item,
+#salads-section .online-menu-item {
+    background-color: #0d2219;  /*#124547;*/
+    border: 1rem solid #ffffff; /* Add this line to set the border */
+    border-radius: 4rem;
+    width: 23rem;
+    height: 23rem;
+}
+
+
+.round-image {
+    width: 5rem; /* Adjust the width to your desired size */
+    height: 5rem; /* Adjust the height to your desired size */
+    border-radius: 50%; /* Display the image as a circle */
+    object-fit: cover; /* Maintain the aspect ratio of the image */
+    margin-bottom: 1rem; /* Add spacing between the image and other elements */
+    top: 0; /* Align the image to the top */
+    transform: translate(160%, -0%); /* Center the image horizontally and vertically */
+
+}
+
+.cta-button{
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: solid #ffffff;
+    border-radius: 20px;
+    background-color:#0d2219;   /* #124547; */
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.cta-button:hover {
+    background-color: #e48c07;
+}
+
+aside{
+    width: 30%;
+    padding-left: 2rem;
+    margin-right: 2rem;
+    float: right;
+    
+}
